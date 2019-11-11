@@ -76,7 +76,7 @@ elif [[ $1 == 'train' ]]; then
         --dropatt=0.0 \
         --learning_rate=0.00010 \
         --warmup_steps=0 \
-        --train_steps=40000 \
+        --train_steps=8000 \
         --tgt_len=${TGT_LEN} \
         --mem_len=${MEM_LEN} \
         --train_batch_size=${BSZ} \
